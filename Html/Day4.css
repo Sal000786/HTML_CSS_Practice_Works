@@ -1,0 +1,31 @@
+        #heading{
+            background-color: red;
+            color: black;
+            font-size: 50px;
+        }
+        #list{
+            background-color: aqua;
+            color: white;
+            font-size: 30px;
+        }
+        .list_item{
+            border: 20px solid ;
+            padding: 20px;
+            font-weight: 20px
+            ;
+            font-size: 20px;
+            color:black;
+        }
+
+        .div{
+            background-color: black;
+            color: white;
+            border: 20px solid rgb(128, 27, 27);
+            font-size: 20px;
+            font: bold;
+            border-radius: 10px;
+            padding: 5px;
+            font-style: italic;
+            text-align: center;
+            width: 500px;
+        }

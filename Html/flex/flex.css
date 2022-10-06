@@ -1,0 +1,54 @@
+#heading{
+    background-color: rgba(245, 222, 12, 0.548);
+    color: black;
+    font-size: 50px;
+}
+#list{
+    background-color: aqua;
+    color: white;
+    font-size: 30px;
+}
+.list_item{
+    border: 20px solid ;
+    padding: 20px;
+    font-weight: 20px
+    ;
+    font-size: 20px;
+    color:black;
+}
+
+.div{
+    background-color: black;
+    color: white;
+    border: 20px solid rgb(128, 27, 27);
+    font-size: 20px;
+    font: bold;
+    border-radius: 50px;
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+    width: 500px;
+}
+#maindiv{
+    background-color: darkcyan;
+    height: 100%;
+    width: 100%;
+    border: 20px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.div :hover{
+    background-color: greenyellow;
+    /* color: black; */
+    height: 100%;
+    width: 100%;
+    border: 30px;
+    font-style:normal;
+    
+
+
+    
+}
