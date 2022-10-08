@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins';
+}
+header{
+    background-color: #313552 ;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+    
+}
+
+.container{
+    width: 1200px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    margin-inline: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+#left-nav{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+
+#button{
+    margin-right: 100px;
+    margin-top: 20px;
+     padding: 10px 20px; 
+     font-size: larger;
+     font-weight: 700;
+     /* border: 5px solid red; */
+     border: 2px solid transparent;
+     background-color: rgb(112, 151, 38);
+     color:rgb(187, 179, 179) ;
+     /* padding-top: 10px;
+     padding-bottom: 20px;
+     padding-left: 30px;
+     padding-right: 20px; */
+
+     transition: 0.5s;
+}
+a{
+    font-size: 10px;
+    margin-left: 20px;
+    border: 2px solid rgb(20, 180, 20);
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    padding:  5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+
+a:hover{
+    color: rgb(0, 17, 255);
+    background-color: black;
+    cursor: 'pointer';
+}
+#button:hover{
+    background-color: black;
+    color: rgb(212, 6, 6);
+    border: 2px solid red;
+    cursor: pointer;
+    
+}
+
+#hero{
+    margin-inline: auto;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hero-right{
+    text-align: right;
+    margin-right: 100px;
+}
+#button2{
+    margin-top: 10px;
+
+}
+#button2:hover{
+    color:black ;
+    background-color: rgb(25, 141, 14);
+    border: 2px solid red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#hero-right h6{
+    color:rgb(216, 17, 17);
+}
+#hero-right h1{
+    color: darkturquoise;
+}
+#hero-right span{
+    color: white;
+}
+
+
+#header2{
+    /* clip-path: polygon(0 0, 100% 12%, 100% 100%, 0% 100%); */
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 400px;
+}
+#header2 h2{
+    /* color: black; */
+    color: aqua;
+    text-align: left;
+    font-size: 40px;
+}
+#header2 span{
+    color: black;
+}
+#header2 p{
+    color: darkolivegreen;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#main_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#html_card{
+    background-color: rgba(240, 221, 221, 0.877);
+    color: rgb(12, 11, 11);
+    border: 5px solid rgb(15, 15, 15);
+    font-style: italic;
+    margin-top: 30px;
+    padding: 10px;
+}
+#css_card{
+    background-color: rgb(233, 214, 214);
+    color: rgb(8, 8, 8);
+    border: 5px solid rgb(7, 7, 7);
+    font-style: italic;
+    /* transition: 0.5s; */
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#css_card:hover{
+    border: 5px solid royalblue;
+    transition: 0.5s;
+}
+#html_card:hover{
+    border: 5px solid royalblue;
+    transition: 0.5s;
+}
+
+#css_card h1:hover{
+    color: red;
+    cursor: pointer;
+    /* border: 5px solid; */
+}
+
+#css_card p:hover{
+    color: red;
+    cursor: pointer;
+}
+#html_card h1:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#html_card p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#header3{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* margin-left: 200px;
+    margin-top: 0; */
+    /* justify-content: space-around; */
+}
+#img_div{
+    margin-left: 200px;
+    border: 5px solid rgb(255, 253, 253);
+    border-radius: 6px;
+    width: 250px;
+}
+
+
+#about_div{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 150px;
+    border: 5px solid rgb(255, 253, 253);
+    border-radius: 6px;
+    width: 250px;
+    padding: 0;
+    margin-right: 0;
+}
+#about_div h3{
+    text-align: left;
+}
+#about_div p{
+    text-align: left;
+}
+#logos img{
+    margin-left: 10px;
+}
